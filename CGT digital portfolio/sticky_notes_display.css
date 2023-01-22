@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(161, 152, 152);
+  }
+  
+  .header_div {
+    background-color: grey;
+    width: 700px;
+    height: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-left: 300px;
+  }
+  
+  .h_d_1 {
+    background-color: grey;
+  }
+  .h_d_2 {
+    background-color: blue;
+  }
+  .h_d_3 {
+    background-color: red;
+  }
+  .h_d_4 {
+    background-color: grey;
+  }
+  .h_d_5 {
+    background-color: grey;
+  }
+  
+  .p_1 {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+  }
+  .p_2 {
+    color: white;
+    margin: 0;
+  }
+  
+  .b_1 {
+    background-color: rgb(40, 103, 133);
+    color: white;
+    border: none;
+    margin-top: 10px;
+    height: 25px;
+    margin-left: 20px;
+  }
+  
+  .b_2 {
+    background-color: blue;
+    color: black;
+    width: 80px;
+    height: 25px;
+    margin-top: 7px;
+    margin-left: 150px;
+  
+    border: none;
+  }
+  
+  .body_container {
+    background-color: rgb(161, 152, 152);
+    width: 1100px;
+    height: 400px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 25px;
+    row-gap: 15px;
+    margin-left: 130px;
+  }
+  
+  .body_div {
+    background-color: red;
+    border: 50px;
+    border-color: black;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.4);
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+  }
+  
+  .t_1 {
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  
+  .t_2 {
+  }
