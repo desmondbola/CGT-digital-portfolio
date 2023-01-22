@@ -1,0 +1,58 @@
+body {
+    background-color: green;
+  }
+  .grid_container {
+    background-color: white;
+    height: 1330px;
+    width: 1330px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+  
+    position: absolute;
+  }
+  
+  .grid_1 {
+    background-color: black;
+    display: inline-block;
+  }
+  
+  .grid_2 {
+    background-color: white;
+  }
+  
+  #g_1,
+  #g_3,
+  #g_5,
+  #g_7 {
+    height: 0;
+    width: 0;
+  }
+  
+  #g_10,
+  #g_12,
+  #g_14,
+  #g_16 {
+    height: 0;
+    width: 0;
+  }
+  
+  #g_64,
+  #g_62,
+  #g_60,
+  #g_58 {
+    height: 0;
+    width: 0;
+  }
+  
+  #g_55,
+  #g_53,
+  #g_51,
+  #g_49 {
+    height: 0;
+    width: 0;
+  }
+  
+  .img_1 {
+    height: 160px;
+    width: 160px;
+  }
